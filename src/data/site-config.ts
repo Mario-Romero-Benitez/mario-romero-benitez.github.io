@@ -53,7 +53,7 @@ const siteConfig: SiteConfig = {
             href: '/'
         },
         {
-            text: 'Projects',
+            text: 'Proyectos',
             href: '/projects'
         },
         {
@@ -67,21 +67,18 @@ const siteConfig: SiteConfig = {
     ],
     footerNavLinks: [
         {
-            text: 'About',
+            text: 'Sobre mí',
             href: '/about'
         },
         {
-            text: 'Contact',
+            text: 'Contáctame',
             href: '/contact'
         },
         {
             text: 'Terms',
             href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
         }
+      
     ],
     socialLinks: [
         {
@@ -97,19 +94,22 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Hola y bienvenido a mi rincón de la web!',
-        text: "soy **Mario**, analista de datos enfocado en transformar datos en decisiones valiosas. Tengo experiencia aplicando herramientas como Excel, Power BI y SQL para obtener insights claros, apoyar la toma de decisiones estratégicas y optimizar procesos. Mi enfoque combina la curiosidad analítica con la claridad visual. Me apasiona contar historias con datos, entender patrones y generar impacto a partir de la información. Explora algunos de mis proyectos en Github o visita mi perfil de Linkedln. Si quieres contactarme, haz click abajo.",
-        image: {
-            src: '/hero.jpeg',
-            alt: 'A person sitting at a desk in front of a computer'
-        },
+        text: "soy **Mario**, analista de datos enfocado en transformar datos en decisiones valiosas. Tengo experiencia aplicando herramientas como Excel, Power BI y SQL para obtener insights claros, apoyar la toma de decisiones estratégicas y optimizar procesos. Mi enfoque combina la curiosidad analítica con la claridad visual. Me apasiona contar historias con datos, entender patrones y generar impacto a partir de la información. Explora algunos de mis proyectos en [GitHub](https://github.com/Mario-Romero-Benitez) o concecta conmigo en [Linkedln](https://www.linkedin.com/in/mario-romero-benítez-313432342/). Si quieres contactarme, haz click abajo.", 
+       image: {
+                src: './hero.jpeg',
+                alt: 'A person sitting at a desk in front of a computer'
+},
+
         actions: [
             {
                 text: 'Cóntactame',
                 href: '/contact'
             }
         ]
-    },
+    }
+
+};
   
-    };
+    
 
 export default siteConfig;
